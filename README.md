@@ -1,24 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Ruby 3.0.1p64 - Rails 6.1.3.2
+### sudo docker build -t ruby_api .
+### sudo docker run -d -e API_VERSION='1.0.0' -p 3000:3000 ruby_api
